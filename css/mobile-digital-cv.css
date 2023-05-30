@@ -1,0 +1,23 @@
+@media (max-width: 576px) {
+  .grid-row {
+    grid-template-columns: 1fr;
+  }
+  .box-timeline {
+    grid-row: 5/6;
+    grid-column: 1/2;
+  }
+  .col-scopes {
+    grid-row: 2/3;
+  }
+
+  .box-content,
+  .box-main {
+    display: block;
+    width: 100%;
+  }
+  i {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
